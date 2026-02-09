@@ -1,0 +1,100 @@
+:root {
+  --primary-color:rgba(0, 255, 255, 0.904);
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+}
+.navbar span {
+  color: var(--primary-color);
+}
+
+nav {
+  display: none;
+}
+nav .container {
+  display: flex;
+  place-content: space-between;
+}
+
+.mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: rgba(68, 68, 68, 0.2666666667);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: 1em;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: 0.2em;
+}
+
+.primary-cta {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: block;
+}
+
+.watch-video-cta {
+  display: block;
+  margin-top: 1em;
+}
+
+img {
+  margin-right: 0.5em;
+}
+
+.hero-img {
+  width: 70%;
+  margin-top: 3em;
+}
+
+.features-section {
+  background: rgb(54, 52, 52);
+  color: white;
+}
+
+ul.features-list {
+  margin: o;
+  padding-left: 1em;
+}/*# sourceMappingURL=main.css.map */
